@@ -1,6 +1,7 @@
 module.exports = {
     configureWebpack: {
-      devtool: 'source-map'
+      devtool: 'source-map',
+      publicPath: 'efenaty.github.io'
     }
   }
   

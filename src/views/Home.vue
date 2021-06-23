@@ -7,7 +7,6 @@
     </b-jumbotron>
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
 import { Api } from '@/Api'
