@@ -1,7 +1,5 @@
 module.exports = {
-    configureWebpack: {
-      devtool: 'source-map',
-      publicPath: 'efenaty.github.io'
-    }
-  }
-  
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/hello-world/'
+  : '/'
+}
